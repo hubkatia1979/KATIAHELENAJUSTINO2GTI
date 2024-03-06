@@ -1,0 +1,173 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: color #fffaf0;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+
+.cabecalho {
+    flex: 1;
+    background: color:azul
+    }
+
+
+    h1 {
+        font-family: "Roboto" , sans-serif;
+       
+    }
+
+    h2 {
+        font-family:"Roboto",sans-serif;
+        text-align: center;
+    }
+
+    p{
+        font-family:"Roboto", sans-serif;
+        text-align: center;
+    }
+
+
+    ul{
+        font-family: "Roboto" , sans-serif;
+
+    }
+
+
+    .nome{
+        color: brown;
+        font-weight:bold;
+        text-align:center;
+        text-decoration: underline;
+    }
+
+
+    .p-banner {
+        color:black;
+        display: flex;
+        flex-direction: row;
+        height: 250px;
+    }
+
+
+    .banner{
+        flex: 1;
+        background-color: blanchedalmond;
+        margin: 20px;
+        }
+
+
+        .banner.text{
+            column-count: 2;
+        }
+
+
+        .formacao{
+           text-align: center;
+        }
+
+
+        .trabalho{
+            text-align: center;
+            padding: 15px;
+        }
+        .empresa{
+            top: 15px;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            height: 110px;
+        }
+
+        .hobbies{
+            color: black;
+            text-align: center;
+            padding: 10px;
+        }
+
+
+        .item-menu {
+            flex: 1;
+            background-color: aquamarine;
+            margin: 10px;
+            width: 90px;
+        }
+
+
+        section{
+            display: flex;
+            flex-direction: row;
+        }
+
+
+        .conteudo {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+        }
+
+
+         .quadrado {
+            flex: 1;
+            background-color: rgb(152, 152, 172);
+            margin: 10px;
+         }
+
+         .hobbies{
+            display: flex;
+            flex-direction: column;
+            font-family: "Roboto",sans-serif;
+            text-align: left;
+            line-height: 1px;
+        }
+
+        .descricao{
+            flex: 1;
+            text-align: justify;
+            word-break: normal;
+            margin: 25px;
+        }
+
+        footer{
+            display: flex;
+            flex-direction: row;
+        }
+
+
+        .footer-conteudo {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            height: 200px;
+        }
+
+        
+        .rodape {
+         flex: 1;
+         margin: 10px;
+         background-color: chocolate;
+         width: 450px;  
+        }
+
+            .feito{
+                text-align: center;
+                padding: 60px;
+            }
+
+            .rodape2 {
+                flex: 1;
+                margin: 10px;
+                background-color: rgb(155, 205, 235);
+                width: 950px;
+            }
